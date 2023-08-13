@@ -5,11 +5,14 @@ using namespace std;
 int main()
 {
 	string op;
-	//op: operacion
+	char conf;
+	bool loop = true;
+	//op: operacion; conf: confirmacion
 	
-	cout<<"\t--------------------\n";
-	cout<<"\t|Bienvenidos a Risk|\n";
-	cout<<"\t--------------------\n\n\n";
+	cout<<"\t\t--------------------\n";
+	cout<<"\t\t|Bienvenidos a Risk|\n";
+	cout<<"\t\t--------------------\n";
+	cout<<"\t>Digite 'ayuda' para una lista de comandos\n\n\n";
 	
 	while(true)
 	{
@@ -26,11 +29,44 @@ int main()
 			cout<<endl<<"2"<<endl;
 		}
 		
+		else if(op == "Guardar" || op == "guardar" || op == "GUARDAR")
+		{
+			while(loop == true)
+			{
+				cout<<endl<<"Comrpimir el archivo? (Y/N)"<<endl;
+				cin>>conf;
+				if(conf == 'y' || conf == 'Y')
+				{
+					cout<<endl<<"3 (comprimir)"<<endl;
+					loop = false;
+				}
+			
+				else if(conf == 'n' || conf == 'N')
+				{
+					cout<<endl<<"3"<<endl;
+					loop = false;
+				}
+			
+				else
+				{
+					cout<<endl<<"Opcion invalida.";
+				}
+			}
+		}
+		
+		else if(op == "Cargar" || op == "cargar" || op == "CARGAR")
+		{
+			cout<<endl<<"4"<<endl;
+		}
+		
+		
 		else if(op == "Ayuda" || op == "ayuda" || op == "AYUDA")
 		{
 			cout<<endl<<"Comandos disponibles:"<<endl;
 			cout<<"*Inicializar: Configurar una nueva partida.\n";
 			cout<<"*Turno: Inicializa el turno del siguiente jugador.\n";
+			cout<<"*Guardar: Guardar la partida con el nombre que se elija.\n";
+			cout<<"*Cargar: Cargar una partida desde un archivo guardado.\n";
 			cout<<"*salir: Terminar el programa.\n";
 		}
 		
