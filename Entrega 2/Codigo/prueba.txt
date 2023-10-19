@@ -1,0 +1,58 @@
+- Numero de jugadores: 3
+- Territorios
+0) America Del Norte
+Alaska,,0,0
+Alberta,,0,0
+America Central,,0,0
+Estados Unidos Orientales,,0,0
+Groenlandia,,0,0
+Territorio Noroccidental,,0,0
+Ontario,,0,0
+Quebec,,0,0
+Estados Unidos Occidentales,,0,0
+1) America Del Sur
+Argentina,,0,0
+Brasil,,0,0
+Peru,chamo,34,1
+Venezuela,,0,0
+2) Europa
+Gran Bretana,,0,0
+Islandia,,0,0
+Europa del Norte,,0,0
+Escandinavia,,0,0
+Europa del Sur,,0,0
+Ucrania,,0,0
+Europa Occidental,,0,0
+3) Africa
+Congo,,0,0
+Africa Oriental,,0,0
+Egipto,,0,0
+Madagascar,,0,0
+Africa del Norte,,0,0
+Africa del Sur,,0,0
+4) Asia
+Afghanistan,,0,0
+China,juan,1,1
+India,chamo,1,1
+Irkutsk,,0,0
+Japon,gra,1,1
+Kamchatka,,0,0
+Medio Oriente,,0,0
+Mongolia,,0,0
+Siam,juan,34,1
+Siberia,,0,0
+Ural,gra,34,1
+Yakutsk,,0,0
+5) Australia
+Australia Oriental,,0,0
+Indonesia,,0,0
+Nueva Guinea,,0,0
+Australia Occidental,,0,0
+- Jugadores
+chamo,azul,0
+juan,rojo,0
+gra,verde,0
+- Turnos
+chamo
+juan
+gra
